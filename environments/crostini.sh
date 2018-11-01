@@ -26,22 +26,22 @@ sudo apt-get update
 
 # Personal
 
-./packages/discord.sh
-./packages/runelite.sh
-./packages/slack.sh
+#./packages/discord.sh
+#./packages/runelite.sh
+#./packages/slack.sh
 
-./crostini/packages/steam.sh
+#./crostini/packages/steam.sh
 
 # Development
 
 sudo apt-get install \
   git                \
   httpie             \
-  imagemagick        \
+  #imagemagick        \
   sqlite3            \
   wget               \
   -y
 
 ./packages/node.sh
-./packages/tmux.sh
-./packages/yarn.sh
+#./packages/tmux.sh
+#./packages/yarn.sh
